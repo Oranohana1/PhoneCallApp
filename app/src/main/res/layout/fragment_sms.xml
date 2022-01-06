@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmsFragment">
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="365dp"
+        android:layout_gravity="center"
+        android:background="#81D4FA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/font"
+            android:text="Type a message to the contact you were looking for:"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editNumberAdd"
+            android:layout_width="361dp"
+            android:layout_height="109dp"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:ems="10"
+            android:fontFamily="@font/font"
+            android:hint="Write soemthing..."
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textAlignment="viewEnd" />
+
+        <Button
+            android:id="@+id/btnSendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:backgroundTint="#0A92DF"
+            android:fontFamily="@font/font"
+            android:text="SEND" />
+    </LinearLayout>
+</FrameLayout>

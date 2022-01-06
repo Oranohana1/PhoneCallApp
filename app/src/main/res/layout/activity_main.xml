@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <EditText
+        android:id="@+id/editSearchNumber"
+        android:layout_width="199dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:fontFamily="@font/font"
+        android:hint="000-000-0000"
+        android:inputType="textPersonName"
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="148dp"
+        android:backgroundTint="#54B6ED"
+        android:backgroundTintMode="add"
+        android:fontFamily="@font/font"
+        android:text="CALL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsFragment" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="104dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="236dp"
+        android:backgroundTint="#54B6ED"
+        android:backgroundTintMode="add"
+        android:fontFamily="@font/font"
+        android:text="SEARCH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/settingsFragment"
+        android:name="com.example.phonecallapp.AddContactFragment"
+        android:layout_width="366dp"
+        android:layout_height="386dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="16dp"
+        android:background="#F3F0F0"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TxtNameContact"
+        android:layout_width="215dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/font"
+        android:textColor="#0E0C0C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSearchNumber" />
+
+    <TextView
+        android:id="@+id/txtNumberContact"
+        android:layout_width="330dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/font"
+        android:textAlignment="viewEnd"
+        android:textColor="#0E0C0C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSearchNumber" />
+
+    <TextView
+        android:id="@+id/txtGenderContact"
+        android:layout_width="215dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/font"
+        android:textColor="#0E0C0C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSearchNumber" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="348dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/font"
+        android:text="Please search number:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

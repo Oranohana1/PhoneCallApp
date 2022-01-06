@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactFragment">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="372dp"
+        android:layout_gravity="center"
+        android:background="#81D4FA"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/font"
+            android:text="Please enter number:"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editNumberAdd"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:fontFamily="@font/font"
+            android:hint="000-0000-000"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/font"
+            android:text="Please enter name"
+            android:textAlignment="center"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/editTextContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ems="10"
+            android:fontFamily="@font/font"
+            android:hint="Contact Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/font"
+            android:text="Enter gender"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:ems="10"
+            android:fontFamily="@font/font"
+            android:hint="male / female"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnSendMessage"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:backgroundTint="#0096EA"
+            android:fontFamily="@font/font"
+            android:minHeight="48dp"
+            android:text="APPLY" />
+    </LinearLayout>
+</FrameLayout>

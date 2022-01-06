@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "636451662859",
+    "firebase_url": "https://phone-call-app-9fe9a-default-rtdb.firebaseio.com",
+    "project_id": "phone-call-app-9fe9a",
+    "storage_bucket": "phone-call-app-9fe9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636451662859:android:364b345044922f9fa7ab0e",
+        "android_client_info": {
+          "package_name": "com.example.phonecallapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636451662859-mqaec1mk7m0cku7h05eua6dgmo4aij0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhyQzVGOs6KGBwspC1A12Czj3E6SSUg4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636451662859-mqaec1mk7m0cku7h05eua6dgmo4aij0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
